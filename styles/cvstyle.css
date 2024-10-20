@@ -1,0 +1,108 @@
+/*
+Flexbox
+*/
+
+@media (min-width: 700px) {
+  .container1 {
+    display:flex;
+  }
+  
+  .container2 {
+    display:flex;
+    justify-content: space-between;
+  }
+}
+
+.container1 div, .container2 div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.box1 {
+  flex: 1;
+}
+
+.box2 {
+  flex-basis: 30%;
+}
+
+/*
+CSS
+*/
+
+body {
+    background-color:azure;
+    color:#3B5998;
+    text-align: center;
+}
+
+h1 {
+    color:darkslategray;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px #0808
+}
+
+h2 {color:rgb(29, 35, 100);
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px #0808
+}
+
+h3, h4 {
+    color:rgb(35, 70, 99);
+    text-align: center;
+}
+
+ul.a {
+    display: inline-block;
+    text-align: left;
+    list-style-type:square;
+}
+
+ul.b {
+    display: inline-block;
+    text-align: left;
+    list-style-type: circle;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 10px;
+    width: 12px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .link:hover {
+    opacity: 0.7;
+  }
+
+  .link:visited {
+    color: darkolivegreen;
+  }
+  
+  html {
+    scroll-behavior:smooth;
+  }
+
+.shrek {
+  height: 226px;
+  width: 150px;
+}
+
+div.box3 {
+  text-align: justify;
+}
